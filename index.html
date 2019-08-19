@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="256px">
-            <form action="#" method="GET" name="search">
-                <input type="text" name="query"><br>
-                <input type="submit" name="fullsearch" value="Google Search"><input type="submit" name="luckysearch" value="I'm Feeling Lucky">
-            </form>
-    </body>
-    </html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
 
+<body>
+    <div class="topnav">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+
+            <li style="float: right"><a href="#" id="signin">Sign in</a></li>
+            <li style="float: right"><a href="#">Images</a></li>
+            <li style="float: right"><a href="#">Gmail</a></li>
+        </ul>
+    </div>
+
+    <div class="srarea">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272px">
+        <form action="#" method="GET" name="search">
+            <input type="text" name="query" class="tbar">
+            <div class="btns">
+                <input type="submit" name="fullsearch" value="Google Search">
+                <input type="submit" name="luckysearch" value="I'm Feeling Lucky">
+            </div>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
