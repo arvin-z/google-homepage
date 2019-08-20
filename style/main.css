@@ -33,6 +33,23 @@ input {
     text-decoration: underline;
 }
 
+.topnav button {
+    color: white;
+    background-color: #4285f4;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 7px 12px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topnav button:active {
+    background-color: #3c7ae4;
+}
+
 #signin {
     background-color: cornflowerblue;
 }
@@ -84,12 +101,34 @@ input {
     text-align: center;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 40px;
+footer {
+    background-color: #f0f0f0;;
     width: 100%;
-    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+}
+
+footer a {
     color: #505050;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    text-decoration: underline;
 }
